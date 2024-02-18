@@ -1,12 +1,12 @@
 syntax = "proto3";
 package v3electionpb;
 
-import "gogoproto/gogo.proto";
-import "rpc.proto";
-import "kv.proto";
+import "proto/gogoproto/gogo.proto";
+import "proto/rpc.proto";
+import "proto/kv.proto";
 
 // for grpc-gateway
-import "google/api/annotations.proto";
+import "proto/google/api/annotations.proto";
 
 option (gogoproto.marshaler_all) = true;
 option (gogoproto.unmarshaler_all) = true;

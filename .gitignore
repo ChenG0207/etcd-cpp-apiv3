@@ -6,3 +6,6 @@ default.etcd/
 
 # vscode-clangd
 .cache/
+.codecc
+.idea
+.vscode

@@ -1,11 +1,11 @@
 syntax = "proto3";
 package v3lockpb;
 
-import "gogoproto/gogo.proto";
-import "rpc.proto";
+import "proto/gogoproto/gogo.proto";
+import "proto/rpc.proto";
 
 // for grpc-gateway
-import "google/api/annotations.proto";
+import "proto/google/api/annotations.proto";
 
 option (gogoproto.marshaler_all) = true;
 option (gogoproto.unmarshaler_all) = true;
